@@ -1,2 +1,2 @@
-sakura-next
-===========
+awesome-media-server
+====================
