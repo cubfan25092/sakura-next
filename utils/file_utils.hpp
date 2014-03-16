@@ -77,6 +77,8 @@ namespace utils
 					s = "/var/sakura/";
 					#endif
 				}
+			} else{
+				s.append("sakura");
 			}
 			return s;
 		}
