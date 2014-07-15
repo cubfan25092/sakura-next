@@ -68,17 +68,17 @@ namespace utils
 					#ifdef __APPLE__
 					s.append("/Library/Application Support/sakura/");
 					#else
-					s.append(".config/sakura/");
+					s.append("/.config/sakura/");
 					#endif
 				} else{
 					#ifdef __APPLE__
-					s = "/Library/Application Support/sakura/"
+					s = "/Library/Application Support/sakura/";
 					#else
 					s = "/var/sakura/";
 					#endif
 				}
 			} else{
-				s.append("sakura");
+				s.append("/sakura/");
 			}
 			return s;
 		}
